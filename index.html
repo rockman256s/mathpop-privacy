@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mathpop Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; color: #1b1d4d; background: #fff8ec; margin: 0; padding: 24px 16px 64px; }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  .meta { opacity: .7; margin: 0 0 24px; }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mathpop Privacy Policy</h1>
+  <p class="meta">Last updated: November 8, 2026</p>
+
+  <p>Mathpop ("the app", Android package <code>app.mathpop.blocker</code>) is a math game with an optional app blocker, published by LLC RockMan. This page explains what the app does with your information.</p>
+
+  <h2>The short version</h2>
+  <p><strong>Mathpop does not collect, store on a server, share or sell any personal data.</strong> It has no accounts, no analytics, no advertising and no tracking. Everything the app knows stays on your phone.</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li>Game progress, trophies, collection and settings.</li>
+    <li>Blocker settings: which apps you chose to block, how many problems you must solve, and when the current unlock ends.</li>
+    <li>The time you first opened the app, used to count the one-day free trial.</li>
+    <li>Whether you bought the full version (a copy of what Google Play reports).</li>
+  </ul>
+  <p>None of this is sent anywhere by the app. Clearing the app's data or uninstalling it deletes all of it.</p>
+
+  <h2>Permissions and why the blocker needs them</h2>
+  <ul>
+    <li><strong>Usage access</strong> (<code>PACKAGE_USAGE_STATS</code>): lets the app see which app is currently in the foreground, so it can show the math challenge when you open an app you chose to block. This is checked on your device only. The app does not keep a history of the apps you use and never sends it anywhere.</li>
+    <li><strong>Display over other apps</strong> (<code>SYSTEM_ALERT_WINDOW</code>): lets the math challenge appear on top of a blocked app.</li>
+    <li><strong>Notifications and foreground service</strong>: the blocker runs as a foreground service with a permanent notification, so Android does not stop it.</li>
+    <li><strong>Run at startup</strong> (<code>RECEIVE_BOOT_COMPLETED</code>): restarts the blocker after you reboot your phone.</li>
+    <li><strong>Battery optimization exemption</strong>: keeps the blocker running reliably in the background.</li>
+    <li><strong>List of installed apps</strong>: the settings screen shows the apps on your phone that have a launcher icon, so you can pick which to block. The list and icons are read on your device and are never sent anywhere.</li>
+  </ul>
+  <p>You can turn any of these off in Android settings at any time. Without them the blocker cannot work, but the game still does.</p>
+
+  <h2>Purchases</h2>
+  <p>The full version is a one-time in-app purchase handled by Google Play. Payment is processed by Google; the app never sees your card or payment details. The app only asks Google Play whether you own the purchase. Google's own privacy policy applies to Play and payments.</p>
+
+  <h2>Children</h2>
+  <p>The app does not collect personal data from anyone, including children.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted at this address with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue at <a href="https://github.com/rockman256s/mathpop-privacy/issues">github.com/rockman256s/mathpop-privacy/issues</a>.</p>
+</main>
+</body>
+</html>
